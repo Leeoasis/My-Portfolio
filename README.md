@@ -46,27 +46,27 @@
 
 ### Prerequisites
 
-In order to run this project you need: to clone it to your local repository and open it with a browser.
-
+In order to run this project you need: 
 
 ### Setup
 
-Clone this repository to your desired folder: Clone the project or download the files to your local environment.
+Clone this repository to your desired folder:
 
+commands:
 
-### Install
-
-Install this project with: You have run the installation commands.
-
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
 
 ### Usage
 
-To run the project, execute the following command: Use linters to check the errors in your html and style.
-
-
-### Run tests
-
-To run : Use test commands
+To run the project, execute the following steps: 
+```sh
+  Open the local folder where your cloned your project to.
+  Locate the html file named index.html and right click on it.
+  Select open with and choose google chrome.
+```
 
 
 ### Deployment
