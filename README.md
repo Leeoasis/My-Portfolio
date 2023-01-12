@@ -114,20 +114,16 @@ Feel free to check the [issues page](https://github.com/Leeoasis/My-Portfolio/is
 
 
 
-## ⭐️ Show your support <a name="support"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="Microverse.org"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 
 - **[Question_1]**
