@@ -75,7 +75,7 @@ body {
   list-style-type: none;
 }
 
-/*----------Works page styling begins here----- */
+/* ----------Works page styling begins here----- */
 
 .works-card {
   display: flex;
@@ -84,7 +84,7 @@ body {
   justify-content: center;
   margin: 8em 7% 0 7%;
   padding: 1em 1em 2em 1em;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   color: #172b4d;
   background-color: fff;
@@ -92,11 +92,12 @@ body {
 
 .works-title {
   font-style: normal;
- font-weight: 700;
- font-size: 32px;
- line-height: 44px;
- color: #172B4D;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
 }
+
 .first_buttons {
   display: flex;
   flex-direction: row;
@@ -140,10 +141,10 @@ body {
 }
 
 .works-text {
- font-style: normal;
- font-weight: 400;
- font-size: 15px;
- line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .last-button {
@@ -154,36 +155,24 @@ body {
 }
 
 .first_buttons,
-  .coding-languages ul {
-    list-style: none;
-  }
-
-.last-button button {
-  color: #396df2;
-  line-height: 24px;
-  font-size: 17px;
-  font-weight: 500;
-  border-radius: 8px;
-  text-decoration: none;
-  padding: 12px;
-  background-color: #fff;
-  border: 1px solid #396df2;
+.coding-languages ul {
+  list-style: none;
 }
 
-/*-------------- About page styling begins here -------- */
+/* -------------- About page styling begins here -------- */
 
 .about_page {
   height: 100vh;
 }
 
 .works-card-2 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 8em 7% 0 7%;
   padding: 1em 1em 2em 1em;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-top-right-radius: 100px;
 }
 
@@ -198,6 +187,19 @@ button {
   background-color: #fff;
   border: 1px solid #396df2;
 }
+
+.last-button button {
+  color: #396df2;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+}
+
 .icon_one {
   width: 90%;
   display: flex;
