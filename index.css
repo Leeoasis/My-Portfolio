@@ -188,6 +188,17 @@ button {
   border: 1px solid #396df2;
 }
 
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  background-color: transparent;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
 .last-button button {
   color: #396df2;
   line-height: 24px;
