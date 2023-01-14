@@ -35,6 +35,7 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 100% 100%;
   padding: 114px 24px;
+  display: grid;
 }
 
 .greeting-text {
@@ -49,7 +50,6 @@ body {
 
 .about-me {
   width: 100%;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -57,7 +57,6 @@ body {
 }
 
 .icon {
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -75,4 +74,177 @@ body {
 
 .social-icons li {
   list-style-type: none;
+}
+
+/* ----------Works page styling begins here----- */
+
+.works-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 8em 7% 0 7%;
+  padding: 1em 1em 2em 1em;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #172b4d;
+  background-color: fff;
+}
+
+.works-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.first_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+  justify-content: flex-start;
+}
+
+.first_buttons a {
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 4px 12px;
+}
+
+.card_details p {
+  width: 95%;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.card_details ul {
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.canopy {
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.works-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.last-button {
+  display: flex;
+  flex-direction: row;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.first_buttons,
+.coding-languages ul {
+  list-style: none;
+}
+
+/* -------------- About page styling begins here -------- */
+
+.about_page {
+  height: 100vh;
+}
+
+.works-card-2 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 8em 7% 0 7%;
+  padding: 1em 1em 2em 1em;
+  border: 1px solid #dfe1e6;
+  border-top-right-radius: 5rem;
+}
+
+button {
+  color: #396df2;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 12px 12px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  background-color: transparent;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
+.last-button button {
+  color: #396df2;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+}
+
+.icon_one {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11pc;
+  margin: 30px 10px;
+}
+
+.icon_one h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.languages {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  list-style-type: none;
+}
+
+.languages_details {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f7f7f9;
+  gap: 12px;
+  margin: 12px;
+}
+
+span {
+  border: 0.5px solid #dfe1e6;
+  margin: 0 12px;
 }

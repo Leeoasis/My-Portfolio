@@ -85,10 +85,7 @@ You can deploy this project using: google chrome.
 
 - GitHub: [@githubhandle](https://github.com/Leeoasis)
 - Twitter: [@twitterhandle](https://twitter.com/gudo_leslie)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leslie-gudo-b08a49255/)
-
-
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leslie-gudo-b08a4)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
