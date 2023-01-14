@@ -173,7 +173,7 @@ body {
   margin: 8em 7% 0 7%;
   padding: 1em 1em 2em 1em;
   border: 1px solid #dfe1e6;
-  border-top-right-radius: 50px;
+  border-top-right-radius: 5rem;
 }
 
 button {
@@ -224,6 +224,13 @@ button:disabled {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
+}
+
+.languages {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  list-style-type: none;
 }
 
 .languages_details {
