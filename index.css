@@ -249,7 +249,7 @@ span {
   background-color: #6070ff;
   background-repeat: no-repeat;
   margin-top: 128px;
-  padding: 98px 24px;
+  padding: 103px 24px;
   border-radius: 80px 0 0 0;
 }
 
@@ -281,7 +281,7 @@ span {
 .contact-input {
   border: 1px solid #cfd8dc;
   border-radius: 12px;
-  width: 100%;
+  width: 327px;
   margin-top: 12px;
   padding: 12px;
   font-weight: 400;
