@@ -272,3 +272,24 @@ span {
   line-height: 28px;
   text-align: center;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.contact-input {
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.form .button {
+  align-self: flex-start;
+}
