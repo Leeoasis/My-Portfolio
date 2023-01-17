@@ -230,7 +230,7 @@ button:disabled {
   border-radius: 8px;
   padding: 0.5em;
   background-color: #f7f7f9;
-  margin-top: 0.5em;  
+  margin-top: 0.5em;
 }
 
 span {
@@ -260,7 +260,6 @@ span {
   line-height: 52px;
   margin-top: 12px;
   text-align: center;
-
 }
 
 .contact-text {
@@ -291,5 +290,5 @@ span {
 }
 
 .form .button {
-  align-self: flex-start;
+  align-self: flex-start;
 }
