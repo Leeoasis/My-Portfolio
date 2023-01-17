@@ -169,9 +169,9 @@ body {
 .works-card-2 {
   background-color: #fff;
   border: 1px solid  #dfe1e6;
-  border-top-right-radius: 8em;
-  padding: 5em 7% 0 7%;
-  margin: 8em 0 0 0;
+  border-bottom: none;
+  border-top-right-radius: 128px;
+  margin: 128px 0 0 0;
 }
 
 button {
@@ -236,4 +236,39 @@ button:disabled {
 span {
   border: 0.5px solid #dfe1e6;
   margin: 0 12px;
+}
+
+/* ----------Contacts page styling begins here----- */
+
+.contact-me {
+  background-image: url(./static/images/contact-form-shapes-mobile.png);
+  background-position-x: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  margin-top: 128px;
+  padding: 98px 24px;
+  border-radius: 80px 0 0 0;
+}
+
+.contact-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 12px;
+  text-align: center;
+
+}
+
+.contact-text {
+  color: #ebebff;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
 }
