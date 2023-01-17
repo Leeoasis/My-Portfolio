@@ -169,9 +169,9 @@ body {
 .works-card-2 {
   background-color: #fff;
   border: 1px solid  #dfe1e6;
-  border-top-right-radius: 8em;
-  padding: 5em 7% 0 7%;
-  margin: 8em 0 0 0;
+  border-bottom: none;
+  border-top-right-radius: 128px;
+  margin: 128px 0 0 0;
 }
 
 button {
@@ -230,10 +230,75 @@ button:disabled {
   border-radius: 8px;
   padding: 0.5em;
   background-color: #f7f7f9;
-  margin-top: 0.5em;  
+  margin-top: 0.5em;
 }
 
 span {
   border: 0.5px solid #dfe1e6;
   margin: 0 12px;
+}
+
+/* ----------Contacts page styling begins here----- */
+
+.contact-me {
+  background-image: url(./static/images/contact-form-shapes-mobile.png);
+  background-position-x: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  margin-top: 128px;
+  padding: 103px 24px;
+  border-radius: 80px 0 0 0;
+}
+
+.contact-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.contact-text {
+  color: #ebebff;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.contact-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.textarea-input {
+  width: 327px;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.form .button {
+  align-self: flex-start;
 }
