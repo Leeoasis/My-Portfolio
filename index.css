@@ -279,14 +279,24 @@ span {
 }
 
 .contact-input {
+  display: flex;
+  align-items: center;
   border: 1px solid #cfd8dc;
-  border-radius: 12px;
+  border-radius: 8px;
   width: 327px;
+  height: 48px;
   margin-top: 12px;
-  padding: 12px;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+}
+
+.textarea-input {
+  width: 327px;
+  height: 170px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin-top: 12px;
 }
 
 .form .button {
