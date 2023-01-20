@@ -261,6 +261,13 @@ button:disabled {
   border: 1px solid #5e6c84;
 }
 
+.last-button:hover {
+  width: 20%;
+ transition-timing-function: ease-in-out;
+ transition: all 2s 0.5s;
+ transform: rotate(360deg);
+}
+
 .last-button button {
   color: #396df2;
   line-height: 24px;
