@@ -90,6 +90,12 @@ body {
   padding-left: 0%;
 }
 
+.social-icons li:hover,
+.social-icons li:focus {
+  transform: scale(1.8);
+  transition:  all 0.3s;
+}
+
 /* ----------Works page styling begins here----- */
 
 .works-card {
