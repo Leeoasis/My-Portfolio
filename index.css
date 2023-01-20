@@ -35,6 +35,19 @@ body {
   list-style-type: none;
 }
 
+.navbar-list li:hover,
+.navbar-list li:focus,
+.icon:hover {
+  background-color: midnightblue;
+  color: whitesmoke;
+  transform: scale(1.8);
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  width: 20%;
+}
+
 .desktop-nav-list {
   display: none;
 }
