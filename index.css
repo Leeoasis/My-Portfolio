@@ -35,6 +35,18 @@ body {
   list-style-type: none;
 }
 
+.icon {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-icons li {
+  list-style-type: none;
+}
+
 .navbar-list li:hover,
 .navbar-list li:focus,
 .icon:hover {
@@ -70,24 +82,12 @@ body {
   color: #172b4d;
 }
 
-.icon {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
 .social-icons {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
   padding-left: 0%;
-}
-
-.social-icons li {
-  list-style-type: none;
 }
 
 /* ----------Works page styling begins here----- */
@@ -263,9 +263,8 @@ button:disabled {
 
 .last-button:hover {
   width: 20%;
- transition-timing-function: ease-in-out;
- transition: all 2s 0.5s;
- transform: rotate(360deg);
+  transition: all 2s 0.5s;
+  transform: rotate(360deg);
 }
 
 .last-button button {
