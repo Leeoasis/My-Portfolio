@@ -369,17 +369,21 @@ span {
 
 @media screen and (min-width: 768px) {
   .container {
-    background-image: url(./static/images/Header\ bg@1x.png);
-    padding-top: 289px;
+    background-image: url(./static/images/Header\ bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 249px;
     padding-left: 260px;
     padding-right: 260px;
     border: 1px solid #ebebff;
+    border-top: hidden;
     border-bottom-left-radius: 96px;
   }
 
   .logo {
     padding-top: 26px;
     padding-bottom: 26px;
+    margin-left: 155px;
   }
 
   .menu-icon {
@@ -387,7 +391,7 @@ span {
   }
 
   .desktop-nav-list {
-    display: block;
+    display: inline-block;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -398,8 +402,15 @@ span {
     display: flex;
     gap: 20px;
     margin-right: 142px;
-    padding-top: 26px;
+    padding-top: 16px;
     padding-bottom: 26px;
+    background-color: #fff;
+  }
+
+  .nav-bar {
+    height: 72px;
+    background-color: #fff;
+    border-style: hidden;
   }
 
   .social-icons {
@@ -425,7 +436,7 @@ span {
 
   .card_details {
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
   }
 
   .canopy {
