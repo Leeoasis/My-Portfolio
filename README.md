@@ -71,7 +71,7 @@ To run the project, execute the following steps:
 
 ### Deployment
 
-You can deploy this project using: https://leeoasis.github.io/My-Portfolio/
+You can view this project live using:  https://leeoasis.github.io/My-Portfolio/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
