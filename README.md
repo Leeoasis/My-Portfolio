@@ -3,7 +3,7 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#Thi is my personal portfolio)
+- [📖 About the Project](https://www.loom.com/share/f8305f7d362c4f5dba35575226b16bc7)
   - [🛠 Built With](#HTML-CSS)
     - [Tech Stack](#HTNL-CSS)
     - [Key Features](#About-me)
