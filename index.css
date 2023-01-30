@@ -31,8 +31,13 @@ body {
   background-color: #f7f7f9;
 }
 
+.modal {
+  display: none;
+}
+
 .navbar-list {
   display: none;
+  background-color: #091e42;
 }
 
 .navbar-list li a{
@@ -40,7 +45,11 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #344563;
+  color: white;
+}
+
+.modalClose {
+  font-size: 30px;
 }
 
 .icon {
@@ -417,14 +426,6 @@ span {
     display: none;
   }
 
-  .desktop-nav-list {
-    display: block;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-  }
-
   .navbar-list {
     display: flex;
     gap: 20px;
@@ -434,7 +435,10 @@ span {
     background-color: #fff;
   }
 
-  
+  .navbar-list li a{
+    color: #344563;
+  }
+
   .nav-bar {
     height: 72px;
     background-color: #fff;
