@@ -35,21 +35,16 @@ body {
   display: none;
 }
 
-.navbar-list {
-  display: none;
-  background-color: #091e42;
-}
-
 .navbar-list li a{
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: white;
 }
 
 .modalClose {
   font-size: 30px;
+  float: right;
 }
 
 .icon {
@@ -423,6 +418,14 @@ span {
   }
 
   .menu-icon {
+    display: none;
+  }
+
+  .modal {
+    display: block;
+  }
+
+  .modalClose {
     display: none;
   }
 
