@@ -14,15 +14,15 @@
         <nav class="nav-list">
             
             <a class="logo" href="#">Leslie Gudo</a>
-            <ul class="navbar-list">
-
-            <li class="menu-icon">
-                <img class="menu" src="static/images/Union.png" alt=" navigation" />
-            </li>
-            <li class="desktop-nav-list">Portfolio</li>
-            <li class="desktop-nav-list">About</li>
-            <li class="desktop-nav-list">Contact</li>
+            <ul id="navLinks" class="navbar-list">
+            <li class="desktop-nav-list"><a href="#">Portfolio</a></li>
+            <li class="desktop-nav-list"><a href="#about">About</a></li>
+            <li class="desktop-nav-list"><a href="#contact">Contact</a></li>
           </ul>
+            <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          
 
         </nav>
 
@@ -176,7 +176,7 @@
       </div>
       </div>
       <tag class="grid-container-2">
-          <div class="works-card-1">
+          <div id="about" class="works-card-1">
               <h2 class="works-title-2">About Myself</h2>
               <P class="about-me">Hello I'm a software developer I can help you build a project, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded don't hesitate to contact me.</P>
               <h3 class="icon">LET'S CONNECT</h3>
@@ -246,7 +246,7 @@
         </tag>
     </section>
      <section class="contact-grid-container">
-        <div class="contact-me">
+        <div id="contact" class="contact-me">
           <h2 class="contact-heading">Contact me</h2>
           <p class="contact-text">If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I'd love to help with it.
@@ -262,5 +262,6 @@
         </div>
       </div> 
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
