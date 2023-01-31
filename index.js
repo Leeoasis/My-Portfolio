@@ -7,6 +7,8 @@ let modalClose = document.getElementById('modalClose');
 //Get the links modal
 let linksModal = document.getElementById('modal');
 
+let backgroundBlur = document.querySelector("body");
+
 //Add event listener that opens the links modal
 modalOpen.addEventListener('click', modalOpener);
 
@@ -15,6 +17,19 @@ modalClose.addEventListener('click', modalCloser);
 
 //Function that opens the modal
 function modalOpener(){
-    linksModal.style.display = "block";
-    modalOpen.style.display = "none";
+    linksModal.classList.remove("hidden");
+    linksModal.classList.add("overlay")
+    modalOpen.classList.add("hidden");
+    backgroundBlur.classList.add("background-blur")
+    
+}
+
+//Function that closes the modal
+function modalCloser(){
+    linksModal.classList.add("hidden");
+    linksModal.classList.remove("overlay")
+    modalOpen.classList.remove("hidden");
+
+    backgroundBlur.classList.remove("background-blur")
+
 }

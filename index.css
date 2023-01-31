@@ -31,21 +31,47 @@ body {
   background-color: #f7f7f9;
 }
 
-.modal {
+.hidden {
   display: none;
+}
+
+.overlay {
+  width: 100vw;
+  min-height: 812px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 28px;
+  background-color: #6070ff;
+  opacity: 0.9;
+}
+
+.navbar-list {
+  padding-top: 80px;
+}
+
+.navbar-list li {
+  margin-bottom: 30px;
 }
 
 .navbar-list li a{
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 30px;
+  color: #fff;
 }
 
 .modalClose {
   font-size: 30px;
   float: right;
   border: 0;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.background-blur {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
 .icon {
@@ -441,6 +467,7 @@ span {
 
   .navbar-list li a{
     color: #344563;
+    font-size: 15px;
   }
 
   .nav-bar {
