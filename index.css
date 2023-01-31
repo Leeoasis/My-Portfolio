@@ -46,6 +46,14 @@ body {
   opacity: 0.9;
 }
 
+.first_buttons a {
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 4px 12px;
+}
+
 .navbar-list {
   padding-top: 80px;
 }
@@ -54,7 +62,7 @@ body {
   margin-bottom: 30px;
 }
 
-.navbar-list li a{
+.navbar-list li a {
   text-decoration: none;
   font-weight: 500;
   font-size: 30px;
@@ -91,9 +99,6 @@ body {
   color: whitesmoke;
   transform: scale(1.8);
   transition: all 0.3s;
-}
-
-.icon:hover {
   width: 20%;
 }
 
@@ -180,14 +185,6 @@ body {
   gap: 10px;
   padding-top: 10px;
   padding-left: 0;
-}
-
-.first_buttons a {
-  color: #6070ff;
-  background-color: #ebebff;
-  border-radius: 8px;
-  text-decoration: none;
-  padding: 4px 12px;
 }
 
 .card_details p {
@@ -465,7 +462,7 @@ span {
     background-color: #fff;
   }
 
-  .navbar-list li a{
+  .navbar-list li a {
     color: #344563;
     font-size: 15px;
   }
