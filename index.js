@@ -20,6 +20,13 @@ function modalOpener(){
     linksModal.classList.remove("hidden");
     linksModal.classList.add("overlay")
     modalOpen.classList.add("hidden");
-    backgroundBlur.classList.add("background-blur")
-    
+    backgroundBlur.classList.add("background-blur")   
+}
+
+//Function that closes the modal
+function modalCloser(){
+    linksModal.classList.add("hidden");
+    linksModal.classList.remove("overlay")
+    modalOpen.classList.remove("hidden");
+    backgroundBlur.classList.remove("background-blur")
 }
