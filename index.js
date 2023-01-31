@@ -18,9 +18,3 @@ function modalOpener(){
     linksModal.style.display = "block";
     modalOpen.style.display = "none";
 }
-
-//Function that closes the modal
-function modalCloser(){
-    linksModal.style.display = "none";
-    modalOpen.style.display = "block";
-}

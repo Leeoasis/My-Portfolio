@@ -45,6 +45,7 @@ body {
 .modalClose {
   font-size: 30px;
   float: right;
+  border: 0;
 }
 
 .icon {
