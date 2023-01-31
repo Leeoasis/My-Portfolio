@@ -15,3 +15,11 @@ modalOpen.addEventListener('click', modalOpener);
 //Add event listener that closes the links modal
 modalClose.addEventListener('click', modalCloser);
 
+//Function that opens the modal
+function modalOpener(){
+    linksModal.classList.remove("hidden");
+    linksModal.classList.add("overlay")
+    modalOpen.classList.add("hidden");
+    backgroundBlur.classList.add("background-blur")
+    
+}
