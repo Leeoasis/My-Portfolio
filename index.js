@@ -202,9 +202,9 @@ seeProjectButtons.forEach((btn) => {
   });
 });
 
-// FORM VALIDATION
+//FORM VALIDATION
 function validateForm(e) {
-  const emailInput = document.querySelector('.form-email');
+  let emailInput = document.querySelector('.form-email');
 
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     document.querySelector('#errorMessage').style.display = 'block';

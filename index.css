@@ -311,13 +311,6 @@ body {
   transition: 0.5s all;
 }
 
-.button-style-2:hover,
-.submit-btn:hover {
-  background: #6070ff;
-  color: #fff;
-  border: 1px solid white;
-}
-
 .submit-btn {
   color: #6070ff;
   background-color: #fff;
@@ -328,6 +321,15 @@ body {
   font-size: 17px;
   line-height: 24px;
   border: 1px;
+  margin-left: 110px;
+  margin-top: 12px;
+}
+
+.button-style-2:hover,
+.submit-btn:hover {
+  background: #6070ff;
+  color: #fff;
+  border: 1px solid white;
 }
 
 .button-style-2:focus,
