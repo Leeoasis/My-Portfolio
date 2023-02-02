@@ -203,8 +203,11 @@ seeProjectButtons.forEach((btn) => {
 });
 
 // FORM VALIDATION
+
+const email = document.querySelector('.form-email');
+
+
 function validateForm(e) {
-  const email = document.querySelector('.form-email');
 
   if (email.value !== email.value.toLowerCase()) {
     document.querySelector('#errorMessage').style.display = 'block';
