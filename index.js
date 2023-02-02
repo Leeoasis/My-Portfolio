@@ -148,8 +148,8 @@ portfolioItems.forEach((item, index) => {
 workSection.innerHTML += portfolioSection;
 
 // POPUP MENU
-let seeProjectButtons = document.querySelectorAll('.see-project-button');
-let popupMenuContainer = document.querySelector('#popup-menu-container');
+const seeProjectButtons = document.querySelectorAll('.see-project-button');
+const popupMenuContainer = document.querySelector('#popup-menu-container');
 seeProjectButtons.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     const buttonIndex = Number(e.target.id.split('-')[2]);
