@@ -204,7 +204,7 @@ seeProjectButtons.forEach((btn) => {
 
 // FORM VALIDATION
 function validateForm(e) {
-  let email = document.querySelector('.form-email');
+  const email = document.querySelector('.form-email');
 
   if (email.value !== email.value.toLowerCase()) {
     document.querySelector('#errorMessage').style.display = 'block';
