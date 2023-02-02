@@ -202,9 +202,84 @@ body {
   height: max-content;
 }
 
-/* Add popup styling */
+#popup-menu-container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 20px;
+}
 
-/* Add popup styling */
+#popup-menu {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#popup-menu h2 {
+  font-size: 30px;
+}
+
+#popup-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+#popup-menu .stackbar {
+  gap: 10px;
+}
+
+#close-popup-menu {
+  cursor: pointer;
+  color: #67798e;
+  font-size: 32px;
+  border: none;
+}
+
+#popup-menu > ul > li:first-child {
+  list-style: none;
+}
+
+#popup-menu img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#popup-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popup-menu-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#popup-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#popup-buttons > button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
 .button-style-1 {
   width: max-content;
