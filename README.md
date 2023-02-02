@@ -136,6 +136,6 @@ Feel free to check the [issues page](https://github.com/Leeoasis/My-Portfolio/is
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENCE.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

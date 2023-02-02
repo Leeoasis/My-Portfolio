@@ -201,3 +201,18 @@ seeProjectButtons.forEach((btn) => {
     });
   });
 });
+
+// FORM VALIDATION
+
+const email = document.querySelector('.form-email');
+
+function validateForm(e) {
+  if (email.value !== email.value.toLowerCase()) {
+    document.querySelector('#errorMessage').style.display = 'block';
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}
+
+const contactForm = document.forms['contact-form'];
+contactForm.addEventListener('submit', validateForm);
