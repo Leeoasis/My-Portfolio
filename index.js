@@ -146,5 +146,3 @@ portfolioItems.forEach((item, index) => {
 });
 
 workSection.innerHTML += portfolioSection;
-
-
