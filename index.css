@@ -465,7 +465,7 @@ body {
 
 #errorMessage {
   display: none;
-  color: red;
+  color: #fff;
   font-family: Inter, sans-serif;
   text-align: center;
 }
