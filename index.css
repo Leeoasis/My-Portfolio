@@ -311,13 +311,15 @@ body {
   transition: 0.5s all;
 }
 
-.button-style-2:hover {
+.button-style-2:hover,
+.submit-btn:hover {
   background: #6070ff;
   color: #fff;
   border: 1px solid white;
 }
 
-.button-style-2:focus {
+.button-style-2:focus,
+.submit-btn:focus {
   background: #01f;
   color: #fff;
 }
@@ -447,6 +449,13 @@ body {
   margin-top: 12px;
 }
 
+#errorMessage {
+  display: none;
+  color: red;
+  font-family: Inter, sans-serif;
+  text-align: center;
+}
+
 .contact-input {
   display: flex;
   align-items: center;
@@ -471,6 +480,20 @@ body {
 .form .button {
   align-self: flex-start;
 }
+
+.submit-btn {
+  color: #6070ff;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px;
+}
+
+
 
 /* || DESKTOP VERSION */
 
