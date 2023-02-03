@@ -210,9 +210,27 @@ function validateForm(e) {
   if (email.value !== email.value.toLowerCase()) {
     document.querySelector('#errorMessage').style.display = 'block';
     e.preventDefault();
-    e.stopPropagation();
   }
 }
 
 const contactForm = document.forms['contact-form'];
 contactForm.addEventListener('submit', validateForm);
+
+
+//LOCAL STORAGE
+
+
+const contactDetails = {
+  fullName: String,
+  email: String,
+  message: String,
+};
+window.onload = () => {
+  const contactData = JSON.parse(localStorage.getItem('contactDetails'));
+
+  if (contactData) {
+    document.getElementById('name').value = contactData.fullName;
+    document.getElementById('email').value = contactData.email;
+    document.getElementById('message').value = contactData.message;
+  }
+};
