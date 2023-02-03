@@ -216,9 +216,7 @@ function validateForm(e) {
 const contactForm = document.forms['contact-form'];
 contactForm.addEventListener('submit', validateForm);
 
-
-//LOCAL STORAGE
-
+// LOCAL STORAGE
 
 const contactDetails = {
   fullName: String,
@@ -242,5 +240,3 @@ contactForm.addEventListener('input', () => {
 
   localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
 });
-
-localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
