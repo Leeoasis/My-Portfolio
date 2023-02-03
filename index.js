@@ -235,3 +235,10 @@ window.onload = () => {
   }
 };
 
+contactForm.addEventListener('input', () => {
+  contactDetails.fullName = document.getElementById('name').value;
+  contactDetails.email = document.getElementById('email').value;
+  contactDetails.message = document.getElementById('message').value;
+
+  localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
+});
