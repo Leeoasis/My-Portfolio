@@ -242,3 +242,5 @@ contactForm.addEventListener('input', () => {
 
   localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
 });
+
+localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
